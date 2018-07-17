@@ -9,10 +9,7 @@ def driver(request):
 
 
 def test_example(driver):
-    driver.get("http://ya.ru/")
-    driver.refresh()
-    driver.refresh()
-    driver.find_element_by_name("text").send_keys("webdriver")
-    driver.refresh()
-    driver.refresh()
+    driver.get("http://yandex.ru/")
+    driver.find_element_by_xpath("//a").click()
+
 
