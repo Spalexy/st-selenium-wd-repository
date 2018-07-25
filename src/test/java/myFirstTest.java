@@ -37,6 +37,8 @@ public class myFirstTest {
         for (int i = 0; i < menuSize; i++) {
             List<WebElement> menuItems = driver.findElements(By.xpath("//*[@id=\"box-apps-menu\"]/li/a"));
             menuItems.get(i).click();
+            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            WebElement element = driver.findElement(By.cssSelector("h1"));
 
             int subMenuSize = driver.findElements(By.cssSelector("li#app- ul a")).size();
 
@@ -44,6 +46,8 @@ public class myFirstTest {
 
                 List<WebElement> subMenuItems = driver.findElements(By.cssSelector("li#app- ul a"));
                 subMenuItems.get(j).click();
+                driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+                WebElement internalElement = driver.findElement(By.cssSelector("h1"));
             }
         }
 
