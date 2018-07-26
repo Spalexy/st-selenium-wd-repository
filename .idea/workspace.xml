@@ -22,20 +22,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="myFirstTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="myFirstTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/myFirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+            <state relative-caret-position="68">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="stickerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stickerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="374">
+              <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,6 +56,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -417,7 +424,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/stickerЕуые.java" />
         <option value="$PROJECT_DIR$/src/test/java/myFirstTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stickerTest.java" />
       </list>
     </option>
   </component>
@@ -432,6 +441,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -473,11 +483,11 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/GitHubDesktop.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -491,7 +501,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.stickerTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -528,6 +538,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="stickerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-test_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="stickerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -550,8 +577,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.myFirstTest" />
+      <item itemvalue="JUnit.stickerTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.stickerTest" />
         <item itemvalue="JUnit.myFirstTest" />
       </list>
     </recent_temporary>
@@ -570,35 +602,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="myFirstTest - 2018.07.25 at 23h 47m 12s.xml">
-      <configuration name="myFirstTest" configurationId="JUnit" />
+    <history-entry file="stickerTest - 2018.07.26 at 14h 51m 42s.xml">
+      <configuration name="stickerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myFirstTest - 2018.07.25 at 23h 47m 46s.xml">
-      <configuration name="myFirstTest" configurationId="JUnit" />
+    <history-entry file="stickerTest - 2018.07.26 at 16h 51m 13s.xml">
+      <configuration name="stickerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myFirstTest - 2018.07.25 at 23h 50m 20s.xml">
-      <configuration name="myFirstTest" configurationId="JUnit" />
+    <history-entry file="stickerTest - 2018.07.26 at 16h 55m 15s.xml">
+      <configuration name="stickerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myFirstTest - 2018.07.25 at 23h 55m 32s.xml">
-      <configuration name="myFirstTest" configurationId="JUnit" />
+    <history-entry file="stickerTest - 2018.07.26 at 16h 58m 07s.xml">
+      <configuration name="stickerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myFirstTest - 2018.07.25 at 23h 56m 39s.xml">
-      <configuration name="myFirstTest" configurationId="JUnit" />
+    <history-entry file="stickerTest - 2018.07.26 at 16h 58m 44s.xml">
+      <configuration name="stickerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myFirstTest - 2018.07.25 at 23h 58m 03s.xml">
-      <configuration name="myFirstTest" configurationId="JUnit" />
+    <history-entry file="stickerTest - 2018.07.26 at 16h 59m 25s.xml">
+      <configuration name="stickerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myFirstTest - 2018.07.25 at 23h 58m 58s.xml">
-      <configuration name="myFirstTest" configurationId="JUnit" />
+    <history-entry file="stickerTest - 2018.07.26 at 17h 09m 12s.xml">
+      <configuration name="stickerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myFirstTest - 2018.07.25 at 23h 59m 49s.xml">
-      <configuration name="myFirstTest" configurationId="JUnit" />
+    <history-entry file="stickerTest - 2018.07.26 at 17h 10m 25s.xml">
+      <configuration name="stickerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myFirstTest - 2018.07.26 at 00h 02m 10s.xml">
-      <configuration name="myFirstTest" configurationId="JUnit" />
+    <history-entry file="stickerTest - 2018.07.26 at 17h 11m 09s.xml">
+      <configuration name="stickerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myFirstTest - 2018.07.26 at 00h 05m 38s.xml">
-      <configuration name="myFirstTest" configurationId="JUnit" />
+    <history-entry file="stickerTest - 2018.07.26 at 17h 11m 23s.xml">
+      <configuration name="stickerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -606,16 +638,15 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32838285" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35313532" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35313532" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32838285" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -626,6 +657,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32838285" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -640,16 +672,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/myFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myFirstTest/build.gradle" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.13.0/c4a49cfe5172bb6c6de784abd4c2b21470083815/selenium-api-3.13.0-sources.jar!/org/openqa/selenium/WebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+        <state relative-caret-position="629">
+          <caret line="37" column="60" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -662,8 +689,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/myFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myFirstTest/build.gradle" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.13.0/c4a49cfe5172bb6c6de784abd4c2b21470083815/selenium-api-3.13.0-sources.jar!/org/openqa/selenium/WebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stickerЕуые.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="59" column="59" lean-forward="true" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/myFirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stickerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
