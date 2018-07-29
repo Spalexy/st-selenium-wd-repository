@@ -14,7 +14,7 @@ import java.util.List;
 
 
 
-public class stickerTest {
+public class StickerTest {
 
     private WebDriver driver;
     private WebDriverWait wait;
