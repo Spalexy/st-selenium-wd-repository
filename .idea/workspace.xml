@@ -25,7 +25,7 @@
       <file leaf-file-name="MyFirstTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MyFirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="187">
               <caret line="21" selection-start-line="21" selection-end-line="22" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -37,7 +37,7 @@
       <file leaf-file-name="StickerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StickerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="17">
               <caret line="26" column="45" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -46,15 +46,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountryListSorting.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CountryListSorting.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CountryListSorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="31" />
+            <state relative-caret-position="123">
+              <caret line="73" selection-start-line="73" selection-end-line="77" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CorrectPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CorrectPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-741">
+              <caret line="73" column="85" selection-start-line="73" selection-start-column="85" selection-end-line="73" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -442,6 +452,7 @@
         <option value="$PROJECT_DIR$/src/test/java/stickerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/myFirstTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CountryListSorting.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CorrectPage.java" />
       </list>
     </option>
   </component>
@@ -457,6 +468,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -497,7 +509,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -516,9 +527,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CountryListSorting">
+  <component name="RunManager" selected="JUnit.CorrectPage">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="CorrectPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-test_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CorrectPage" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CorrectPage.myPageText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-test_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CorrectPage" />
+      <option name="METHOD_NAME" value="myPageText" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="CountryListSorting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-test_test" />
@@ -587,40 +632,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="myFirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-test_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="myFirstTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="stickerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-test_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="stickerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -644,19 +655,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.myFirstTest" />
-      <item itemvalue="JUnit.stickerTest" />
       <item itemvalue="JUnit.MyFirstTest" />
       <item itemvalue="JUnit.StickerTest" />
       <item itemvalue="JUnit.CountryListSorting" />
+      <item itemvalue="JUnit.CorrectPage" />
+      <item itemvalue="JUnit.CorrectPage.myPageText" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CorrectPage" />
+        <item itemvalue="JUnit.CorrectPage.myPageText" />
         <item itemvalue="JUnit.CountryListSorting" />
         <item itemvalue="JUnit.StickerTest" />
         <item itemvalue="JUnit.MyFirstTest" />
-        <item itemvalue="JUnit.myFirstTest" />
-        <item itemvalue="JUnit.stickerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -674,35 +685,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CountryListSorting - 2018.07.29 at 22h 34m 37s.xml">
-      <configuration name="CountryListSorting" configurationId="JUnit" />
+    <history-entry file="CorrectPage - 2018.07.30 at 15h 12m 44s.xml">
+      <configuration name="CorrectPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountryListSorting - 2018.07.29 at 22h 38m 54s.xml">
-      <configuration name="CountryListSorting" configurationId="JUnit" />
+    <history-entry file="CorrectPage - 2018.07.30 at 15h 13m 09s.xml">
+      <configuration name="CorrectPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountryListSorting - 2018.07.29 at 22h 42m 06s.xml">
-      <configuration name="CountryListSorting" configurationId="JUnit" />
+    <history-entry file="CorrectPage - 2018.07.30 at 15h 14m 13s.xml">
+      <configuration name="CorrectPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountryListSorting - 2018.07.29 at 22h 44m 17s.xml">
-      <configuration name="CountryListSorting" configurationId="JUnit" />
+    <history-entry file="CorrectPage - 2018.07.30 at 15h 15m 04s.xml">
+      <configuration name="CorrectPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountryListSorting - 2018.07.29 at 22h 45m 28s.xml">
-      <configuration name="CountryListSorting" configurationId="JUnit" />
+    <history-entry file="CorrectPage - 2018.07.30 at 15h 15m 29s.xml">
+      <configuration name="CorrectPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountryListSorting - 2018.07.29 at 22h 47m 40s.xml">
-      <configuration name="CountryListSorting" configurationId="JUnit" />
+    <history-entry file="CorrectPage - 2018.07.30 at 15h 15m 46s.xml">
+      <configuration name="CorrectPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountryListSorting - 2018.07.29 at 22h 53m 49s.xml">
-      <configuration name="CountryListSorting" configurationId="JUnit" />
+    <history-entry file="CorrectPage - 2018.07.30 at 15h 16m 16s.xml">
+      <configuration name="CorrectPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountryListSorting - 2018.07.29 at 22h 56m 17s.xml">
-      <configuration name="CountryListSorting" configurationId="JUnit" />
+    <history-entry file="CorrectPage - 2018.07.30 at 15h 16m 36s.xml">
+      <configuration name="CorrectPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountryListSorting - 2018.07.29 at 22h 57m 53s.xml">
-      <configuration name="CountryListSorting" configurationId="JUnit" />
+    <history-entry file="CorrectPage - 2018.07.30 at 15h 16m 59s.xml">
+      <configuration name="CorrectPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountryListSorting - 2018.07.29 at 23h 00m 58s.xml">
-      <configuration name="CountryListSorting" configurationId="JUnit" />
+    <history-entry file="CorrectPage - 2018.07.30 at 15h 24m 53s.xml">
+      <configuration name="CorrectPage" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -718,7 +729,7 @@
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35313532" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -730,7 +741,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32838285" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -738,10 +749,50 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyFirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="22" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StickerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CountryListSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="29" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CorrectPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" column="54" lean-forward="true" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -814,7 +865,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="187">
           <caret line="21" selection-start-line="21" selection-end-line="22" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -824,7 +875,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StickerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="17">
           <caret line="26" column="45" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -834,12 +885,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CountryListSorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="31" />
+        <state relative-caret-position="123">
+          <caret line="73" selection-start-line="73" selection-end-line="77" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CorrectPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741">
+          <caret line="73" column="85" selection-start-line="73" selection-start-column="85" selection-end-line="73" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
