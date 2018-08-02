@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="616ab7f3-1b35-4fc2-ab46-507ec5a99e72" name="Default" comment="" />
+    <list default="true" readonly="true" id="616ab7f3-1b35-4fc2-ab46-507ec5a99e72" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RegistrationTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationTest.java">
+      <file leaf-file-name="NewProductTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/NewProductTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="65" column="75" selection-start-line="65" selection-start-column="75" selection-end-line="65" selection-end-column="75" />
+            <state relative-caret-position="276">
+              <caret line="65" column="92" lean-forward="true" selection-start-line="65" selection-start-column="92" selection-end-line="65" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -420,6 +420,7 @@
         <option value="$PROJECT_DIR$/src/test/java/AdminGeoZonesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RegistrationTestImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/RegistrationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NewProductTest.java" />
       </list>
     </option>
   </component>
@@ -435,6 +436,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -475,7 +477,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -499,7 +500,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RegistrationTest">
+  <component name="RunManager" selected="JUnit.NewProductTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -537,14 +538,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CorrectPage.myPageText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NewProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-test_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CorrectPage" />
-      <option name="METHOD_NAME" value="myPageText" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="NewProductTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -554,14 +555,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CountryListSorting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NewProductTest.myNewProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-test_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CountryListSorting" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="NewProductTest" />
+      <option name="METHOD_NAME" value="myNewProductTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -627,24 +628,25 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CountryListSorting" />
       <item itemvalue="JUnit.CorrectPage" />
-      <item itemvalue="JUnit.CorrectPage.myPageText" />
       <item itemvalue="JUnit.AdminGeoZonesTest" />
       <item itemvalue="JUnit.RegistrationTest" />
+      <item itemvalue="JUnit.NewProductTest" />
+      <item itemvalue="JUnit.NewProductTest.myNewProductTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RegistrationTest" />
-        <item itemvalue="JUnit.AdminGeoZonesTest" />
+        <item itemvalue="JUnit.NewProductTest" />
+        <item itemvalue="JUnit.NewProductTest.myNewProductTest" />
         <item itemvalue="JUnit.CorrectPage" />
-        <item itemvalue="JUnit.CorrectPage.myPageText" />
-        <item itemvalue="JUnit.CountryListSorting" />
+        <item itemvalue="JUnit.AdminGeoZonesTest" />
+        <item itemvalue="JUnit.RegistrationTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -657,35 +659,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegistrationTest - 2018.08.01 at 13h 44m 00s.xml">
-      <configuration name="RegistrationTest" configurationId="JUnit" />
+    <history-entry file="NewProductTest - 2018.08.02 at 17h 31m 13s.xml">
+      <configuration name="NewProductTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationTest - 2018.08.01 at 13h 45m 29s.xml">
-      <configuration name="RegistrationTest" configurationId="JUnit" />
+    <history-entry file="NewProductTest - 2018.08.02 at 17h 51m 17s.xml">
+      <configuration name="NewProductTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationTest - 2018.08.01 at 13h 48m 33s.xml">
-      <configuration name="RegistrationTest" configurationId="JUnit" />
+    <history-entry file="NewProductTest - 2018.08.02 at 17h 55m 30s.xml">
+      <configuration name="NewProductTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationTest - 2018.08.01 at 13h 51m 25s.xml">
-      <configuration name="RegistrationTest" configurationId="JUnit" />
+    <history-entry file="NewProductTest - 2018.08.02 at 22h 32m 21s.xml">
+      <configuration name="NewProductTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationTest - 2018.08.01 at 13h 52m 28s.xml">
-      <configuration name="RegistrationTest" configurationId="JUnit" />
+    <history-entry file="NewProductTest - 2018.08.02 at 23h 08m 02s.xml">
+      <configuration name="NewProductTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationTest - 2018.08.01 at 13h 53m 17s.xml">
-      <configuration name="RegistrationTest" configurationId="JUnit" />
+    <history-entry file="NewProductTest - 2018.08.02 at 23h 09m 35s.xml">
+      <configuration name="NewProductTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationTest - 2018.08.01 at 14h 24m 42s.xml">
-      <configuration name="RegistrationTest" configurationId="JUnit" />
+    <history-entry file="NewProductTest - 2018.08.02 at 23h 10m 12s.xml">
+      <configuration name="NewProductTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationTest - 2018.08.01 at 14h 25m 22s.xml">
-      <configuration name="RegistrationTest" configurationId="JUnit" />
+    <history-entry file="NewProductTest - 2018.08.02 at 23h 33m 41s.xml">
+      <configuration name="NewProductTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationTest - 2018.08.01 at 14h 25m 41s.xml">
-      <configuration name="RegistrationTest" configurationId="JUnit" />
+    <history-entry file="NewProductTest - 2018.08.02 at 23h 36m 42s.xml">
+      <configuration name="NewProductTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationTest - 2018.08.01 at 14h 26m 33s.xml">
-      <configuration name="RegistrationTest" configurationId="JUnit" />
+    <history-entry file="NewProductTest - 2018.08.02 at 23h 42m 41s.xml">
+      <configuration name="NewProductTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -701,7 +703,7 @@
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35313532" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28517398" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -725,13 +727,40 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/NewProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NewProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NewProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -877,25 +906,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AdminGeoZonesTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationTestImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="-897">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CorrectPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="-1047">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationTestImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/AdminGeoZonesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="65" column="75" selection-start-line="65" selection-start-column="75" selection-end-line="65" selection-end-column="75" />
+        <state relative-caret-position="612">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NewProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="65" column="92" lean-forward="true" selection-start-line="65" selection-start-column="92" selection-end-line="65" selection-end-column="92" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
