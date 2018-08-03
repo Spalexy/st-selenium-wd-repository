@@ -1,10 +1,11 @@
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.io.File;
 import java.util.Random;
 
 public class NewProductTest {
@@ -40,6 +41,12 @@ public class NewProductTest {
         String nameEn = "Product";
         String prodCode = "t" + builder;
         String quantity = "120";
+
+        File image = new File("src/test/java/duck.jpg");
+        String filepath = image.getAbsolutePath();
+        driver.findElement(By.cssSelector("[name=new_images\\[\\]]")).sendKeys(filepath);
+        driver.findElement(By.cssSelector("#add-new-image")).click();
+
         String dateFrom = "1282018";
         String dateTo = "7102019";
         String rubbish = "Lorem ipsum dolor sit amet";
@@ -49,7 +56,6 @@ public class NewProductTest {
         String purchasePrice = "120";
         String priceUSD = "29";
         String priceEUR = "26";
-        String tax = "1.6";
 
         driver.findElement(By.cssSelector("[name=status]")).click();
         driver.findElement(By.cssSelector("[name=name\\[en\\]]")).sendKeys(nameEn);
@@ -66,10 +72,26 @@ public class NewProductTest {
         driver.findElement(By.xpath("//select[@name='manufacturer_id']/option[2]")).click();
         driver.findElement(By.cssSelector("[name=keywords]")).sendKeys(rubbish);
         driver.findElement(By.cssSelector("[name=short_description\\[en\\]]")).sendKeys(rubbish);
+        driver.findElement(By.xpath("//div[@class='trumbowyg-editor']")).sendKeys(desription);
+        driver.findElement(By.cssSelector("[name=head_title\\[en\\]]")).sendKeys(rubbish);
+        driver.findElement(By.cssSelector("[name=meta_description\\[en\\]]")).sendKeys(rubbish);
+
+        driver.findElement(By.xpath("//a[contains(text(),'Prices')]")).click();
+        driver.findElement(By.cssSelector("[name=purchase_price]")).clear();
+        driver.findElement(By.cssSelector("[name=purchase_price]")).sendKeys(purchasePrice);
+        driver.findElement(By.cssSelector("[name=purchase_price_currency_code]")).click();
+        driver.findElement(By.cssSelector("[value=USD]")).click();
+        driver.findElement(By.cssSelector("[name=prices\\[USD\\]]")).sendKeys(priceUSD);
+        driver.findElement(By.cssSelector("[name=prices\\[EUR\\]]")).sendKeys(priceEUR);
+        driver.findElement(By.cssSelector("[name=save")).click();
 
 
+    }
 
-
+    @After
+    public void stop() {
+        driver.quit();
+        driver = null;
     }
 
 }
