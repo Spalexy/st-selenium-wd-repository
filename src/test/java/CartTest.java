@@ -30,9 +30,9 @@ public class CartTest {
     @Test
     public void myCartTest() {
 
-        int produucts = 3;
+        int products = 3;
 
-        for (int i = 1; i < (produucts + 1); i++ ) {
+        for (int i = 1; i < (products + 1); i++ ) {
 
             String count = String.valueOf(i);
             driver.get("http://localhost/litecart/");
@@ -50,7 +50,7 @@ public class CartTest {
 
         driver.findElement(By.cssSelector("#cart a")).click();
 
-        for (int j = 1; j < (produucts + 1); j++) {
+        for (int j = 1; j < (products + 1); j++) {
             List<WebElement> td = driver.findElements(By.cssSelector("td.item"));
             wait.until(elementToBeClickable(By.name("remove_cart_item"))).click();
             wait.until(stalenessOf(td.get(0)));
